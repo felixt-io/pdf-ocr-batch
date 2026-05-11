@@ -1,11 +1,9 @@
-# PDF OCR Batch Automation
+# PDF OCR Batch
 
-This repo shows a simple, practical automation workflow I use in construction and real estate work: batch OCR for scanned PDFs. It is built around `ocrmypdf` and a small Python script that runs multiple files in parallel.
+A small Python tool that batch-OCRs a folder of scanned PDFs into fully searchable PDFs. Built around `ocrmypdf` and a short script that processes multiple files in parallel.
 
-I am a construction and real estate professional who builds practical tools to cut down admin time. This project batch-OCRs scanned PDFs so they are searchable and easier to review, freeing up time and resources for the critical work that moves a project forward.
-
-## Why this matters
-Construction and real estate work generates large volumes of scanned documents (contracts, invoices, reports, permits). OCR makes them searchable and easier to review, share, and audit.
+## Why I built this
+I had a stack of old scanned PDFs sitting around as image-only files, and I wanted to make them searchable so I could actually find things in them. Doing each one by hand through a GUI was tedious, so this script runs the whole folder in parallel.
 
 ## What it does
 - Runs OCR on every PDF in a folder
