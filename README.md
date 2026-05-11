@@ -59,5 +59,12 @@ python scripts/pdf_ocr_batch.py \
 - `scripts/pdf_ocr_batch.py`: main batch OCR script
 - `docs/notes.md`: short project notes
 
+## Acknowledgments
+This script is a thin wrapper around the following open-source projects, which do the heavy lifting:
+
+- [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) (MPL 2.0)
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) (Apache 2.0)
+- [Ghostscript](https://www.ghostscript.com/) (AGPL v3 or commercial)
+
 ## License
 MIT. See `LICENSE`.
